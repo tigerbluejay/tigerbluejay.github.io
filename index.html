@@ -219,7 +219,7 @@
       <div class="col-md-12 widget">
         <div class="widget-body">
           <p class="text-right">
-            Copyright &copy; 2025 -  
+            Copyright © <span id="copyright-date"></span> -  
  José María Iriarte 
         </div>
       </div>
@@ -230,3 +230,10 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script>
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long' };
+        const formattedDate = now.toLocaleString('en-US', options);
+        document.getElementById("copyright-date").textContent = formattedDate;
+</script>
+</body>
