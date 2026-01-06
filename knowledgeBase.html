@@ -123,9 +123,8 @@
       <div class="row section featured topspace">
         <h3 class="section-title fs-4 fw-semibold"><span>Knowledge Base - Engineering Library</span></h3>
         <div id="software-architecture-container"></div>
+        <div id="system-design-container"></div>
       </div>
-      <h4 class="section-title fs-5 fw-normal"><span>Systems Design</span></h4>
-      <p class="text-center">Coming soon!</p>
       <h4 class="section-title fs-5 fw-normal"><span>Azure Cloud Services Essentials</span></h4>
       <p class="text-center">Coming soon!</p>
       <h4 class="section-title fs-5 fw-normal"><span>.NET Theory</span></h4>
@@ -195,10 +194,15 @@
 </script>
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 <script>
-  fetch('./partials/software-architecture.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('software-architecture-container').innerHTML = html;
-    });
+  function loadPartial(containerId, url) {
+    fetch(url)
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById(containerId).innerHTML = html;
+      });
+  }
+
+  loadPartial('software-architecture-container', './partials/software-architecture.html');
+  loadPartial('system-design-container', './partials/system-design.html');
 </script>
 </body>
