@@ -97,18 +97,20 @@
     }
 
     .video-js .vjs-big-play-button:hover {
-       background: rgba(189, 21, 80, 0.08) !important;
+      background: rgba(189, 21, 80, 0.08) !important;
     }
 
     .section-title button::after {
-      content: "▾";
+      content: "▸";
       margin-left: 8px;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      display: inline-block;
       transition: transform 0.2s ease;
     }
 
-    .section-title button[aria-expanded="false"]::after {
-      transform: rotate(-90deg);
+    .section-title button:not(.collapsed)::after {
+      transform: rotate(90deg); /* ▶ → ▼ */
+    }
     }
   </style>
 </head>
