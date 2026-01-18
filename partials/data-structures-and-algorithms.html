@@ -1,0 +1,752 @@
+      <h4 class="section-title fs-5 fw-normal">
+        <button
+          class="btn btn-link p-0 text-decoration-none fs-5 fw-normal collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#data-structures-and-algorithms-section"
+          aria-expanded="false"
+          aria-controls="data-structures-and-algorithms-section"
+        >
+          <span>Data Structures & Algorithms</span>
+        </button>
+      </h4>
+
+      <div id="data-structures-and-algorithms-section" class="collapse">
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Frequency Counters
+            </p>
+
+            <p>The Frequency Counter is a common algorithmic pattern rather than a formal data structure. It involves counting how often values occur — typically using a hash-based structure — and then using those counts to answer questions efficiently. This pattern is especially powerful for problems involving comparisons, permutations, anagrams, or matching occurrences between datasets. Instead of repeatedly scanning collections, you precompute frequencies once and then perform constant-time lookups.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter01-SameFrequency.cs" class="btn btn-action mb-2">
+              Same Frequency
+              </a>
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter02-ArethereDuplicates.cs" class="btn btn-action mb-2">
+              Are there Duplicates?
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter03-Same-NaiveSolution.cs" class="btn btn-action mb-2">
+              Naive Solution
+              </a>
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter04-Same-RefactoredSolution.cs" class="btn btn-action mb-2">
+              Refactored Solution
+              </a>
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter05-Anagram.cs" class="btn btn-action mb-2">
+              Anagram
+              </a>
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter06-Extra-ConstructNode.cs" class="btn btn-action mb-2">
+              Construct Node
+              </a>
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter07-Extra-FindAllDuplicates.cs" class="btn btn-action mb-2">
+              Find All Duplicates
+              </a>
+              <a href="./cs/data-structures-and-algorithms/FrequencyCounter08-Extra-MulitplePointers-FindPair.cs" class="btn btn-action mb-2">
+              Multiple Pointers - Find Pair
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Multiple Pointers
+            </p>
+
+            <p>The Multiple Pointers pattern is an algorithmic technique used to process data structures—most commonly arrays or strings—by maintaining two or more indices that move through the structure in a coordinated way. Instead of relying on nested loops to compare or combine elements, this approach allows you to make linear passes while still examining relationships between multiple positions. The key insight is that many problems involve comparing elements relative to each other rather than independently, and pointer movement can encode that logic efficiently.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/MultiplePointers01-CountUniqueValues.cs" class="btn btn-action mb-2">
+              Count Unique Values
+              </a>
+              <a href="./cs/data-structures-and-algorithms/MultiplePointers02-SumZero.cs" class="btn btn-action mb-2">
+              Sum Zero
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/MultiplePointers03-IsSubsequence.cs" class="btn btn-action mb-2">
+              Is Subsequence?
+              </a>
+              <a href="./cs/data-structures-and-algorithms/MultiplePointers04-AveragePair.cs" class="btn btn-action mb-2">
+              Average Pair
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Sliding Window
+            </p>
+
+            <p>The Sliding Window pattern is used to process contiguous subsets of data efficiently, most often in arrays or strings. Instead of recomputing information for each possible subrange from scratch, the sliding window maintains a running state that updates incrementally as the window moves forward. This allows problems that would otherwise be quadratic to be solved in linear time.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/SlidingWindow01-MaxSubarraySum.cs" class="btn btn-action mb-2">
+              Max Subarray Sum
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SlidingWindow02-MaxSubarraySum2.cs" class="btn btn-action mb-2">
+              Max Subarray Sum II
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SlidingWindow03-MinSubarrayLength.cs" class="btn btn-action mb-2">
+              Min Subarray Length
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SlidingWindow04-FindLongestSubstring.cs" class="btn btn-action mb-2">
+              Find Longest Substring
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Recursion I
+            </p>
+
+            <p>Recursion is a programming technique where a function solves a problem by calling itself on smaller instances of the same problem. At a deeper level, recursion is about aligning your solution with the natural structure of the data or problem domain. Problems involving trees, graphs, nested structures, or repeated subdivision often map cleanly to recursive definitions, making recursion a powerful expressive tool rather than just a trick.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/Recursion01-CallstackExample.cs" class="btn btn-action mb-2">
+              Call Stack Example
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Recursion02-FactorialIterative.cs" class="btn btn-action mb-2">
+              Factorial Iterative
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/Recursion03-FactorialRecursive.cs" class="btn btn-action mb-2">
+              Factorial Recursive
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Recursion04-SumRange.cs" class="btn btn-action mb-2">
+              Sum Range
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Recursion05-CollectOddValues.cs" class="btn btn-action mb-2">
+              Collect Odd Values
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Recursion06-CollectOddValueswithHelperFunction.cs" class="btn btn-action mb-2">
+              Collect Odd Values with Helper Function
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Recursion II
+            </p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/RecursionII01-Factorial.cs" class="btn btn-action mb-2">
+              Factorial
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionII02-Fibbonacci.cs" class="btn btn-action mb-2">
+              Fibonacci
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/RecursionII03-Power.cs" class="btn btn-action mb-2">
+              Power
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionII04-ProductofArray.cs" class="btn btn-action mb-2">
+              Product of Array
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionII05-RecursiveRange.cs" class="btn btn-action mb-2">
+              Recursive Range
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Recursion III
+            </p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/RecursionIII01-Reverse.cs" class="btn btn-action mb-2">
+              Reverse
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionIII02-IsPalindrome.cs" class="btn btn-action mb-2">
+              Is Palindrome?
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/RecursionIII03-SomeRecursion.cs" class="btn btn-action mb-2">
+              Some Recursion
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionIII04-Flatten.cs" class="btn btn-action mb-2">
+              Flatten
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Recursion IV
+            </p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/RecursionIV01-CapitalizeFirst.cs" class="btn btn-action mb-2">
+              Capitalize First
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionIV02-CapitalizeWords.cs" class="btn btn-action mb-2">
+              Capitalize Words
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/RecursionIV03-CollectStrings.cs" class="btn btn-action mb-2">
+              Collect Strings
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionIV04-NestedEvenSum.cs" class="btn btn-action mb-2">
+              Nested Even Sum
+              </a>
+              <a href="./cs/data-structures-and-algorithms/RecursionIV05-StringifyNumbers.cs" class="btn btn-action mb-2">
+              Stringify Numbers
+              </a>
+            </p>
+          </div>Binary Search Trees
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Searching Algorithms
+            </p>
+
+            <p>Searching Algorithms are techniques for locating a target value within a collection of data. While the goal sounds simple, the efficiency of searching depends entirely on what assumptions you can make about the data. If the data is unsorted, you may be forced to check elements one by one. If it is sorted or structured, you can exploit that organization to eliminate large portions of the search space at once.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/SearchingAlgorithms01-LinearSearch.cs" class="btn btn-action mb-2">
+              Linear Search
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SearchingAlgorithms02-BinarySearch.cs" class="btn btn-action mb-2">
+              Binary Search
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SearchingAlgorithms03-StringSearch.cs" class="btn btn-action mb-2">
+              String Search
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Sorting Algorithms
+            </p>
+
+            <p>Sorting Algorithms arrange data into a defined order, typically ascending or descending. While sorting may seem mundane, it is one of the most deeply studied problems in computer science because it reveals fundamental limits of computation, trade-offs between time and space, and the impact of assumptions about data. Different sorting algorithms excel under different conditions, such as small datasets, nearly sorted data, or strict memory constraints.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms01-BubbleSort.cs" class="btn btn-action mb-2">
+              Bubble Sort
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms02-BubbleSortOptimized.cs" class="btn btn-action mb-2">
+              Bubble Sort Optimized
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms03-InsertionSort.cs" class="btn btn-action mb-2">
+              Insertion Sort
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms04-SelectionSort.cs" class="btn btn-action mb-2">
+              Selection Sort
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms05-RadixSortHelpers.cs" class="btn btn-action mb-2">
+              Radix Sort Helpers
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms06-RadixSort.cs" class="btn btn-action mb-2">
+              Radix Sort
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms07-MergeArray.cs" class="btn btn-action mb-2">
+              Merge Array
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms08-MergeSort.cs" class="btn btn-action mb-2">
+              Merge Sort
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms09-QuicksortPivot.cs" class="btn btn-action mb-2">
+              Quicksort Pivot
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms10-Quicksort.cs" class="btn btn-action mb-2">
+              Quicksort
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms11-DivideandConquer-CountZeros.cs" class="btn btn-action mb-2">
+              Divide & Conquer: Count Zeros
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms12-DivideandConquer-RotatedIndex.cs" class="btn btn-action mb-2">
+              Divide & Conquer: Rotated Index
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SortingAlgorithms13-DivideandConquer-SortedFrequency.cs" class="btn btn-action mb-2">
+              Divide & Conquer: Sorted Frequency
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Singly Linked List
+            </p>
+
+            <p>A Singly Linked List is a linear data structure made up of nodes, where each node contains a value and a reference to the next node in the sequence. Unlike arrays, elements are not stored contiguously in memory, which means linked lists excel at insertions and deletions without requiring shifts or resizing. However, this flexibility comes at the cost of slower access, since reaching a specific position requires traversal from the head.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList01-Structure.cs" class="btn btn-action mb-2">
+              Structure
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList02-PushandPop.cs" class="btn btn-action mb-2">
+              Push / Pop
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList03-ShiftandUnshift.cs" class="btn btn-action mb-2">
+              Shift / Unshift
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList04-GetSet.cs" class="btn btn-action mb-2">
+              Get / Set
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList05-InsertRemove.cs" class="btn btn-action mb-2">
+              Insert / Remove
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList06-ReversePrint.cs" class="btn btn-action mb-2">
+              Reverse / Print
+              </a>
+              <a href="./cs/data-structures-and-algorithms/SinglyLinkedList07-Rotate.cs" class="btn btn-action mb-2">
+              Rotate
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Doubly Linked List
+            </p>
+
+            <p>A Doubly Linked List is a linear data structure composed of nodes where each node maintains two references: one to the next node and one to the previous node. This bidirectional connectivity allows traversal in both directions and enables certain operations — especially deletions — to be performed more efficiently than in singly linked lists. Unlike arrays, linked lists do not store elements contiguously in memory, which means they avoid the cost of shifting elements when inserting or removing items.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/DoublyLinkedList01-Structure.cs" class="btn btn-action mb-2">
+              Structure
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DoublyLinkedList02-PushPop.cs" class="btn btn-action mb-2">
+              Push / Pop
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/DoublyLinkedList03-ShiftUnshift.cs" class="btn btn-action mb-2">
+              Shift / Unshift
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DoublyLinkedList04-GetSet.cs" class="btn btn-action mb-2">
+              Get / Set
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DoublyLinkedList05-InsertRemove.cs" class="btn btn-action mb-2">
+              Insert / Remove
+              </a>  
+              <a href="./cs/data-structures-and-algorithms/DoublyLinkedList06-Reverse.cs" class="btn btn-action mb-2">
+              Reverse
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Stacks & Queues
+            </p>
+
+            <p>Stacks and Queues are linear data structures that impose strict rules on how elements are added and removed. A stack follows Last-In, First-Out (LIFO) semantics, while a queue follows First-In, First-Out (FIFO) semantics. These constraints may seem limiting, but they map naturally to many real-world and computational processes, such as function calls, undo operations, task scheduling, and buffering.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/Stacks&Queues01-Stack.cs" class="btn btn-action mb-2">
+              Stack
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Stacks&Queues02-Queue.cs" class="btn btn-action mb-2">
+              Queue
+              </a>  
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Binary Search Trees (BSTs)
+            </p>
+
+            <p>A Binary Search Tree is a hierarchical data structure that organizes values so that searching, inserting, and deleting elements can be done efficiently, assuming the tree remains reasonably balanced. Each node stores a value and has up to two children, but unlike a heap, a BST enforces a global ordering rule: values smaller than a node go to the left subtree, and values larger go to the right subtree. This invariant applies recursively to every subtree, which means the entire structure represents a sorted ordering of its elements.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/BinarySearchTree01-InsertFindContains.cs" class="btn btn-action mb-2">
+              Insert / Find / Contains
+              </a>
+              <a href="./cs/data-structures-and-algorithms/BinarySearchTree02-Remove.cs" class="btn btn-action mb-2">
+              Remove
+              </a>
+              <a href="./cs/data-structures-and-algorithms/BinarySearchTree03-DFS.cs" class="btn btn-action mb-2">
+              Depth First Search (DFS)
+              </a>
+              <a href="./cs/data-structures-and-algorithms/BinarySearchTree04-BFS.cs" class="btn btn-action mb-2">
+              Breadth First Search (BFS)
+              </a> 
+              <a href="./cs/data-structures-and-algorithms/BinarySearchTree05-CheckifBalanced.cs" class="btn btn-action mb-2">
+              Check if Balanced
+              </a>
+              <a href="./cs/data-structures-and-algorithms/BinarySearchTree06-Find2ndLargestNode.cs" class="btn btn-action mb-2">
+              Find Second Largest Node
+              </a>  
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Binary Heap
+            </p>
+
+            <p>A Binary Heap is a specialized tree-based data structure designed around one primary goal: efficiently retrieving and updating the “most important” element according to some ordering rule. Unlike many trees, a heap does not try to keep elements fully sorted. Instead, it enforces a very specific, minimal ordering constraint that is just strong enough to support fast operations like insertion and removal of the top-priority element. In a min-heap, every parent node is less than or equal to its children; in a max-heap, every parent is greater than or equal to its children. Crucially, this rule applies locally, not globally — siblings are not ordered relative to each other, and the tree is not sorted left-to-right.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/BinaryHeap01-InsertandBubbleUp.cs" class="btn btn-action mb-2">
+              Insert / Bubble Up
+              </a>
+              <a href="./cs/data-structures-and-algorithms/BinaryHeap02-ExtractMaxandSinkDown.cs" class="btn btn-action mb-2">
+              Extract Max / Sink Down
+              </a>
+              <a href="./cs/data-structures-and-algorithms/BinaryHeap03-PriorityQueue.cs" class="btn btn-action mb-2">
+              Priority Queue
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Hash Tables
+            </p>
+
+            <p>A Hash Table is a data structure designed to provide near-constant-time access to values based on keys. It achieves this by applying a hash function to transform a key into an index within an underlying array. Ideally, each key maps to a unique index, allowing instant retrieval. In practice, collisions occur when multiple keys hash to the same index, and the hash table must resolve them using techniques such as chaining or open addressing.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/HashTables01-BasicHash.cs" class="btn btn-action mb-2">
+              Basic Hash
+              </a>
+              <a href="./cs/data-structures-and-algorithms/HashTables02-ImprovedHash.cs" class="btn btn-action mb-2">
+              Improved Hash
+              </a>
+              <a href="./cs/data-structures-and-algorithms/HashTables03-GetSet.cs" class="btn btn-action mb-2">
+              Get / Set
+              </a>
+              <a href="./cs/data-structures-and-algorithms/HashTables04-KeysValues.cs" class="btn btn-action mb-2">
+              Keys and Values
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Graphs
+            </p>
+
+            <p>A Graph is a highly flexible data structure used to model relationships between entities. It consists of nodes (vertices) and connections (edges), which may be directed or undirected, weighted or unweighted. Graphs are powerful because they impose very few structural constraints, allowing them to represent real-world systems such as social networks, road maps, dependency systems, and communication networks.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/Graphs01-StructureEdgesandVertices.cs" class="btn btn-action mb-2">
+              Structure / Edges / Vertices
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Graphs02-DFSRecursive.cs" class="btn btn-action mb-2">
+              Depth First Search (DFS) Recursive
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Graphs03-DFSIterative.cs" class="btn btn-action mb-2">
+              Depth First Search (DFS) Iterative
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Graphs04-BFS.cs" class="btn btn-action mb-2">
+              Breadth First Search (BFS)
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Dijkstra's Algorithm
+            </p>
+
+            <p>Dijkstra’s Algorithm is a greedy graph algorithm designed to solve a very specific but extremely important problem: finding the shortest path from a starting node to all other nodes in a weighted graph where edge weights are non-negative. Rather than exploring all paths blindly, Dijkstra’s algorithm builds up shortest paths incrementally, always extending the currently known shortest route. The algorithm is “greedy” because at each step it commits to the locally optimal choice — the node with the smallest tentative distance — trusting that this choice will never need to be undone.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/DijkstrasAlgorithm01-WeightedGraph.cs" class="btn btn-action mb-2">
+              Weighted Graph
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DijkstrasAlgorithm02-PriorityQueue.cs" class="btn btn-action mb-2">
+              Priority Queue
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DijkstrasAlgorithm03-DijkstrasVersion1.cs" class="btn btn-action mb-2">
+              Dijkstra's Algorithm Version 1
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DijkstrasAlgorithm04-DijkstrasVersion2.cs" class="btn btn-action mb-2">
+              Dijkstra's Algorithm Version 2
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Dynamic Programming
+            </p>
+
+            <p>Dynamic Programming (DP) is not a single algorithm but a problem-solving strategy for tackling complex problems by breaking them into overlapping subproblems and solving each subproblem only once. The defining insight behind DP is that many problems exhibit optimal substructure (the optimal solution depends on optimal solutions to smaller instances) and overlapping subproblems (the same computations are repeated many times). DP eliminates redundancy by storing intermediate results and reusing them.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/DynamicProgramming01-FibonacciMemoization.cs" class="btn btn-action mb-2">
+              Fibonacci Memoization
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DynamicProgramming02-FibonacciTabulation.cs" class="btn btn-action mb-2">
+              Fibonacci Tabulation
+              </a>
+              <a href="./cs/data-structures-and-algorithms/DynamicProgramming03-CoinChange.cs" class="btn btn-action mb-2">
+              Coin Change
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row align-items-start mb-4">
+
+          <!-- COL 1: thumbnail -->
+          <div class="col-md-2 d-flex justify-content-center mb-2 mb-md-0">
+            <audio controls preload="none" style="width:100%;max-width:140px;">
+            <source
+              src="https://pub-9a672a30aadd4f359a1bfb75a41aff1f.r2.dev/audios/software-architecture/SECTION%201%20INTRODUCTI.mp3"
+              type="audio/mpeg">
+            </audio>
+          </div>
+
+          <!-- COL 2: description -->
+          <div class="col-md-10">
+            <p class="text-muted mb-2 section-title fs-6 fw-normal text-start">
+              Tries
+            </p>
+
+            <p>A Trie (prefix tree) is a specialized tree structure used to store collections of strings in a way that makes prefix-based operations extremely efficient. Instead of storing complete strings as individual entries, a trie decomposes them character by character, sharing common prefixes among multiple words. This makes tries especially useful for autocomplete, spell checking, and dictionary-like applications.</p>
+
+            <p class="text-center">
+              <a href="./cs/data-structures-and-algorithms/Tries01-AddWord.cs" class="btn btn-action mb-2">
+              Add Word
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Tries02-FindWord.cs" class="btn btn-action mb-2">
+              Find Word
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Tries03-GetWords.cs" class="btn btn-action mb-2">
+              Get Words
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Tries04-Autocomplete.cs" class="btn btn-action mb-2">
+              Autocomplete
+              </a>
+              <a href="./cs/data-structures-and-algorithms/Tries05-RemoveWord.cs" class="btn btn-action mb-2">
+              Remove Word
+              </a>
+            </p>
+          </div>
+        </div>
+
+      </div>
