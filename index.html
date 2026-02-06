@@ -64,6 +64,7 @@
      margin-left: 0;
      margin-right: 0;
     }
+    
   </style>
 </head>
 
@@ -267,15 +268,20 @@
         </div>
         <div class="col-sm-6 col-md-6">
             <h4 class="text-center">CV</h4>
-            <p class="d-flex justify-content-center pt-4">
-              <a href="cv/IRIARTE-CV-01-2026-v3.pdf" target="_blank">
-                <img 
-                    src="IRIARTE-CV-09-2025.jpg" 
-                    alt="Curriculum Vitae of José María Iriarte" 
-                    class="img-fluid rounded shadow w-100" 
-                    style="max-width: 400px; height: auto;">
-              </a>
-            </p>
+              <div class="d-flex justify-content-center mt-4 mb-5">
+                <div class="ratio ratio-16x9" style="max-width: 720px; width: 100%;">
+                  <div class="d-flex align-items-center justify-content-center border border-2 rounded-3 shadow">
+                    <a href="cv/IRIARTE-CV-01-2026-v3.pdf" target="_blank" class="w-100 h-100 d-flex align-items-center justify-content-center">
+                      <img
+                        src="IRIARTE-CV-09-2025.jpg"
+                        alt="Curriculum Vitae of José María Iriarte"
+                        class="img-fluid"
+                        style="max-height: 90%; max-width: 90%; object-fit: contain;">
+                    </a>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
       </div>
@@ -331,7 +337,7 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<!-- <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
 <script>
         const now = new Date();
         const options = { year: 'numeric', month: 'long' };
